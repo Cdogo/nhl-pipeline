@@ -5,15 +5,18 @@
   "main": "src/index.js",
   "type": "module",
   "scripts": {
-    "start": "node -r dotenv/config src/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node -r dotenv/config src/index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.0.3",
     "lodash": "^4.17.21",
+    "node-schedule": "^2.1.1",
     "pg": "^8.10.0",
     "pg-promise": "^11.4.3"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
   }
 }
